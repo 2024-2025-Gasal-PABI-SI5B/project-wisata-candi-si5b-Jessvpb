@@ -84,7 +84,7 @@ class DetailScreen extends StatelessWidget {
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Text(':${candi.location}'),
+                    Text(' : ${candi.location}'),
                   ],
                 ),
                 Row(
@@ -103,7 +103,7 @@ class DetailScreen extends StatelessWidget {
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Text(':${candi.built}'),
+                    Text(' : ${candi.built}'),
                   ],
                 ),
                 Row(
@@ -122,7 +122,7 @@ class DetailScreen extends StatelessWidget {
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Text(':${candi.type}'),
+                    Text(' : ${candi.type}'),
                   ],
                 ),
                 //Pemisah
